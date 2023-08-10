@@ -3,7 +3,7 @@ import "/app/globals.css"
 
 const Nav = () => {
   return (
-    <nav className="flex flex-1 justify-between py-10 px-5 ">
+    <nav className="flex flex-1 justify-between py-10 px-5 w-full desktop:px-56 ">
       <div className="desktop:hidden p-1 ">
         <Image
           src="/assets/images/top.png"
