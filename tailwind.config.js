@@ -7,6 +7,19 @@ module.exports = {
   ],
   theme: {
     extend: {
+      lineHeight: {
+        "desktop": "8vw",
+        "mob": "20vw",
+        "tab": "8vw"
+      },
+      fontSize: {
+        'mob-25': '25.6vw',
+        '10xl': '10vw',
+        'tab-9': '9.375vw',
+      },
+      margin: {
+        "56": "14.25rem"
+      },
       backgroundImage: {
         'waves': "url('/assets/images/waves.png')",
       },
@@ -31,14 +44,6 @@ module.exports = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
-    },
-    screens: {
-      'tablet': '376px',
-      // => @media (min-width: 640px) { ... }
-
-      'desktop': '1025px',
-      // => @media (min-width: 1024px) { ... }
-
     },
 
   },
