@@ -16,6 +16,7 @@ module.exports = {
         'mob-25': '25.6vw',
         '10xl': '10vw',
         'tab-9': '9.375vw',
+        '1-vw': "1.1vw",
       },
       margin: {
         "56": "14.25rem"

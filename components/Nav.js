@@ -3,8 +3,8 @@ import "/app/globals.css"
 
 const Nav = () => {
   return (
-    <nav className="flex flex-1 justify-between py-10 px-5 w-full desktop:px-56 ">
-      <div className="desktop:hidden p-1 ">
+    <nav className="flex flex-1 justify-between py-10 px-5 w-full xl:px-56 ">
+      <div className="xl:hidden p-1 ">
         <Image
           src="/assets/images/top.png"
           alt="lgog-aeroLab"
@@ -13,7 +13,7 @@ const Nav = () => {
 
         />
       </div>
-      <div className="hidden desktop:flex">
+      <div className="hidden xl:flex">
         <Image
           src="/assets/images/Aerolab-logo.png"
           width={126}
