@@ -1,5 +1,6 @@
 import "./globals.css"
 import Image from "next/image"
+import illustration from "@/public/assets/images/Illustration.png"
 
 export default function Home() {
   return (
@@ -17,23 +18,30 @@ export default function Home() {
             </button>
             <div className="my-auto">
               <Image
-                src="/assets/images/down.png"
+                src={"/assets/images/down.png"}
                 alt="down-arrow"
                 width={12}
                 height={12}
+
               />
             </div>
 
           </article>
         </div>
-        <div >
+        <div className="flex flex-1">
+
           <Image
-            src="/assets/images/Illustration.png"
+            src={illustration}
             alt="Illustration"
-            width={897}
-            height={795}
+         
+            layout="responsive"
+          
+            style={{ objectFit: "cover" }}
           />
+
         </div>
+
+
 
 
       </section>
