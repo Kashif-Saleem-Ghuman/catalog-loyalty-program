@@ -10,12 +10,12 @@ module.exports = {
       lineHeight: {
         "desktop": "8vw",
         "mob": "20vw",
-        "tab": "8vw"
+        "tab": "9.5vw"
       },
       fontSize: {
         'mob-25': '25.6vw',
-        '10xl': '10vw',
-        'tab-9': '9.375vw',
+        '10xl': '9.8vw',
+        'tab-9': '12.5vw',
         '1-vw': "1.1vw",
       },
       margin: {
