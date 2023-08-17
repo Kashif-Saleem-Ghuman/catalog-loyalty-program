@@ -24,3 +24,8 @@
 .background-button {
   background: linear-gradient(135deg, #176feb, #ff80ff);
 }
+
+.background-color {
+  /* apply opacity to background color */
+  @apply bg-gradient-to-r from-blue-400/50 to-purple-500/50;
+}
