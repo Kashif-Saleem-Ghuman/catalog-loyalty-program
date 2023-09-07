@@ -17,6 +17,7 @@ module.exports = {
         "10xl": "11vw",
         "tab-9": "12.5vw",
         "1-vw": "1.1vw",
+        "4vw": "4vw",
       },
       padding: {
         "12vw": "12vw",
