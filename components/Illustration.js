@@ -13,8 +13,7 @@ const Illustartion = () => {
       <Image
         src={illustationImage}
         alt="hero"
-        className="xl:hidden overflow-x-auto absolute bottom-[80%] md:bottom-[89%]"
-        style={{width: "135%", overflowX: "auto"}}
+        className="xl:hidden overflow-x-auto absolute bottom-[80%] md:bottom-[89%] w-full md:w-[57%]"
       />
 
       <Image
