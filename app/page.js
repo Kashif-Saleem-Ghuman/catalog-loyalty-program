@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <>
       <main className="background xl:mt-20 pb-28 md:pb-72 xl:pb-0">
-        <section className="xl:pb-24 xl:flex xl:ms-12vw xl:me-7.5vw ">
+        <section className="xl:pb-64 xl:flex xl:ms-12vw xl:me-7.5vw ">
           <div className=" pt-10 xl:pt-8 mx-5 px-6 md:mx-auto md:w-5/12 xl:flex xl:flex-col xl:max-w-[30vw] xl:ps-0 xl:pe-0 xl:mx-0 xl:justify-items-end">
             <h2 className="text-center text-Neutral-600 text-base font-semibold tracking-24% xl:text-start xl:text-1-vw">
               EXPLORE THE
